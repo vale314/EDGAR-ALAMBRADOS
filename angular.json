@@ -20,12 +20,26 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/fonts/nucleo-license.md",
+              "src/assets/fonts/nucleo-outline.eot",
+              "src/assets/fonts/nucleo-outline.ttf",
+              "src/assets/fonts/nucleo-outline.woff",
+              "src/assets/fonts/nucleo-outline.woff2",
+              "src/assets/img/header.jpg"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/now-ui-kit.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/core/bootstrap.min.js",
+              "src/assets/js/plugins/bootstrap-switch.js",
+              "src/assets/js/plugins/nouislider.min.js",
+              "src/assets/js/plugins/bootstrap-datepicker.js",
+              "src/assets/js/now-ui-kit.js"  
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -80,7 +94,8 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/now-ui-kit.css"
             ],
             "scripts": [],
             "assets": [
