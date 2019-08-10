@@ -15,9 +15,9 @@ export class NavbarComponent implements OnInit {
     
   }
 
-  scrollToDownload(){
+  scrollToContacto(){
       $("html, body").animate({
-        scrollTop: $('.section-download').offset().top
+        scrollTop: $('.section-contacto').offset().top
       }, 1000);
     }
 }

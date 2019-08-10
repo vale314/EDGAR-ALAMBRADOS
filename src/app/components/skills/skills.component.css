@@ -15,6 +15,11 @@
     transition: transform .4s,box-shadow .4s;
 }
 
+.icon.icon-four {
+    color: #065C27;
+    transition: transform .4s,box-shadow .4s;
+}
+
 .icon.icon-primary {
     color: #f96332;
     transition: transform .4s,box-shadow .4s;
@@ -71,6 +76,13 @@
 
 .icon.icon-primary.icon-circle:hover{
     box-shadow: 0 9px 30px -6px #f96332;
+    opacity: 1;
+    transition: 0.1s;
+    transform: translate3d(0,-.5rem,0);
+}
+
+.icon.icon-four.icon-circle:hover{
+    box-shadow: 0 9px 30px -6px #065C27;
     opacity: 1;
     transition: 0.1s;
     transform: translate3d(0,-.5rem,0);
