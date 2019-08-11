@@ -30,7 +30,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/now-ui-kit.css"
+              "src/assets/css/now-ui-kit.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
@@ -95,7 +95,7 @@
             "karmaConfig": "src/karma.conf.js",
             "styles": [
               "src/styles.css",
-              "src/assets/css/now-ui-kit.css"
+              "src/assets/css/now-ui-kit.scss"
             ],
             "scripts": [],
             "assets": [
