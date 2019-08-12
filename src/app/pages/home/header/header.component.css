@@ -3,18 +3,27 @@
 }
 
 
-@media screen and (min-width: 991px){
+@media screen and (min-width: 823px){
     .page-header-image{
-        width: 100% !important; 
-        height: auto !important;
+      width: auto !important;
+      height: 100% !important; 
     }
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 823px){
     .page-header-image{
-        height: 100% !important;
-        width: auto !important;
+      width: auto !important; 
+      height: auto !important;
     }
+}
+
+@media screen and (min-width: 1920px){
+  .page-header-image{
+    width: -webkit-fill-available !important; 
+    width: -fill-available !important; 
+    width: -moz-fill-available !important; 
+    height: auto !important;
+  }
 }
 
 /*TypeWriter*/
