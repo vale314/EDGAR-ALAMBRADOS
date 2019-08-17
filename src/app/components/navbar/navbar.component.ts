@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { ScrollService } from '../../services/scroll.service';
 
 
 @Component({
@@ -9,15 +10,10 @@ import * as $ from 'jquery';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scrollService:ScrollService) { }
 
   ngOnInit() {
     
   }
 
-  scrollToContacto(){
-      $("html, body").animate({
-        scrollTop: $('.contactus-1').offset().top
-      }, 1000);
-    }
 }

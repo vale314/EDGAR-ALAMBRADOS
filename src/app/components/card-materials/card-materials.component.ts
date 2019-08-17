@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from '../../services/scroll.service';
 
 @Component({
   selector: 'app-card-materials',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardMaterialsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scrollService:ScrollService) { }
 
   ngOnInit() {
   }

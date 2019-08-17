@@ -14,7 +14,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">
+          <a class="nav-link" href="javascript:void(0)" routerLink="/productos">
             <i class="now-ui-icons arrows-1_cloud-download-93"></i>
             <p>Productos</p>
           </a>
@@ -34,7 +34,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-neutral" (click)="scrollToContacto()">
+          <a class="nav-link btn btn-neutral" (click)="scrollService.scrollToContacto()">
             <i class="now-ui-icons arrows-1_share-66"></i>
             <p style="color: black;">Contactanos</p>
           </a>
