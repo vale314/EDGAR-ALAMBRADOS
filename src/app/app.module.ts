@@ -25,6 +25,14 @@ import { HeaderCiclonicaComponent } from './pages/malla-ciclonica/components/hea
 import { BodyCiclonicaComponent } from './pages/malla-ciclonica/components/body-ciclonica/body-ciclonica.component';
 import { PriceComponent } from './components/price/price.component';
 import { PriceCiclonicaComponent } from './pages/malla-ciclonica/components/price-ciclonica/price-ciclonica.component.js';
+import { MallaConcertinaComponent } from './pages/malla-concertina/malla-concertina.component';
+import { HeaderConcertinaComponent } from './pages/malla-concertina/components/header-concertina/header-concertina.component';
+import { BodyConcertinaComponent } from './pages/malla-concertina/components/body-concertina/body-concertina.component';
+import { PriceConcertinaComponent } from './pages/malla-concertina/components/price-concertina/price-concertina.component';
+import { MallaSeguridadComponent } from './pages/malla-seguridad/malla-seguridad.component';
+import { HeaderSeguridadComponent } from './pages/malla-seguridad/components/header-seguridad/header-seguridad.component';
+import { BodySeguridadComponent } from './pages/malla-seguridad/components/body-seguridad/body-seguridad.component';
+import { PriceSeguridadComponent } from './pages/malla-seguridad/components/price-seguridad/price-seguridad.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +56,14 @@ import { PriceCiclonicaComponent } from './pages/malla-ciclonica/components/pric
     BodyCiclonicaComponent,
     PriceCiclonicaComponent,
     PriceComponent,
+    MallaConcertinaComponent,
+    HeaderConcertinaComponent,
+    BodyConcertinaComponent,
+    PriceConcertinaComponent,
+    MallaSeguridadComponent,
+    HeaderSeguridadComponent,
+    BodySeguridadComponent,
+    PriceSeguridadComponent,
   ],
   imports: [
     BrowserModule,

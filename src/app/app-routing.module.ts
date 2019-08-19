@@ -3,12 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { MallaCiclonicaComponent } from './pages/malla-ciclonica/malla-ciclonica.component';
+import { MallaConcertinaComponent } from './pages/malla-concertina/malla-concertina.component';
+import { MallaSeguridadComponent } from './pages/malla-seguridad/malla-seguridad.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path:'productos', component:ProductsComponent},
-  { path: 'productos/ciclonica', component:MallaCiclonicaComponent}
+  { path: 'productos/ciclonica', component:MallaCiclonicaComponent},
+  { path: 'productos/concertina', component:MallaConcertinaComponent},
+  { path: 'productos/alta-seguridad', component:MallaSeguridadComponent}
 ];
 
 @NgModule({
