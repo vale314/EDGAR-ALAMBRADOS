@@ -33,6 +33,9 @@ import { MallaSeguridadComponent } from './pages/malla-seguridad/malla-seguridad
 import { HeaderSeguridadComponent } from './pages/malla-seguridad/components/header-seguridad/header-seguridad.component';
 import { BodySeguridadComponent } from './pages/malla-seguridad/components/body-seguridad/body-seguridad.component';
 import { PriceSeguridadComponent } from './pages/malla-seguridad/components/price-seguridad/price-seguridad.component';
+import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
+import { BodyAboutComponent } from './pages/about-us-page/components/body-about/body-about.component';
+import {HeaderAboutComponent} from './pages/about-us-page/components/header-about/header-about.component'
 
 @NgModule({
   declarations: [
@@ -64,6 +67,9 @@ import { PriceSeguridadComponent } from './pages/malla-seguridad/components/pric
     HeaderSeguridadComponent,
     BodySeguridadComponent,
     PriceSeguridadComponent,
+    AboutUsPageComponent,
+    BodyAboutComponent,
+    HeaderAboutComponent
   ],
   imports: [
     BrowserModule,
