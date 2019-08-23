@@ -10,7 +10,7 @@ import { ScrollService } from '../../services/scroll.service';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor(private scrollService:ScrollService) { }
+  constructor(public scrollService:ScrollService) { }
 
   ngOnInit() {
     

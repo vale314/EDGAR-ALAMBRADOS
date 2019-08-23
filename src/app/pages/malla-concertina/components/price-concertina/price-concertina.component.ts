@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from '../../../../services/scroll.service';
 
 @Component({
   selector: 'app-price-concertina',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PriceConcertinaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public scrollService:ScrollService) { }
 
   ngOnInit() {
   }

@@ -35,7 +35,8 @@ import { BodySeguridadComponent } from './pages/malla-seguridad/components/body-
 import { PriceSeguridadComponent } from './pages/malla-seguridad/components/price-seguridad/price-seguridad.component';
 import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
 import { BodyAboutComponent } from './pages/about-us-page/components/body-about/body-about.component';
-import {HeaderAboutComponent} from './pages/about-us-page/components/header-about/header-about.component'
+import {HeaderAboutComponent} from './pages/about-us-page/components/header-about/header-about.component';
+import { VisionComponent } from './pages/vision/vision.component'
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import {HeaderAboutComponent} from './pages/about-us-page/components/header-abou
     PriceSeguridadComponent,
     AboutUsPageComponent,
     BodyAboutComponent,
-    HeaderAboutComponent
+    HeaderAboutComponent,
+    VisionComponent
   ],
   imports: [
     BrowserModule,

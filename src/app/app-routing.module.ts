@@ -6,6 +6,7 @@ import { MallaCiclonicaComponent } from './pages/malla-ciclonica/malla-ciclonica
 import { MallaConcertinaComponent } from './pages/malla-concertina/malla-concertina.component';
 import { MallaSeguridadComponent } from './pages/malla-seguridad/malla-seguridad.component';
 import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.component';
+import { VisionComponent } from './pages/vision/vision.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'productos/ciclonica', component:MallaCiclonicaComponent},
   { path: 'productos/concertina', component:MallaConcertinaComponent},
   { path: 'productos/alta-seguridad', component:MallaSeguridadComponent},
-  { path: 'nosotros', component:AboutUsPageComponent}
+  { path: 'nosotros', component:AboutUsPageComponent},
+  {path: 'vision', component:VisionComponent}
 ];
 
 @NgModule({

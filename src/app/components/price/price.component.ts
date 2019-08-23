@@ -8,7 +8,7 @@ import { ScrollService } from '../../services/scroll.service';
 })
 export class PriceComponent implements OnInit {
 
-  constructor(private scrollService:ScrollService) { }
+  constructor(public scrollService:ScrollService) { }
 
   ngOnInit() {
   }
