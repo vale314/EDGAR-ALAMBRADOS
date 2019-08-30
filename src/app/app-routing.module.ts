@@ -16,7 +16,11 @@ const routes: Routes = [
   { path: 'productos/concertina', component:MallaConcertinaComponent},
   { path: 'productos/alta-seguridad', component:MallaSeguridadComponent},
   { path: 'nosotros', component:AboutUsPageComponent},
-  {path: 'vision', component:VisionComponent}
+  {path: 'vision', component:VisionComponent},
+  {
+    path:'**',
+    redirectTo:''
+  }
 ];
 
 @NgModule({
