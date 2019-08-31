@@ -3,7 +3,7 @@
     style="z-index: -1;">
   </div> -->
   <video [muted]="'muted'" class="page-header-image" autoplay loop="">
-    <source src="video | safe" type="video/mp4">
+    <source [src]="video | safe" type="video/mp4">
   </video>
   <div class="container">
     <div class="content-center brand">
