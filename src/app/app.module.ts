@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './pages/home/header/header.component';
+import { SafePipe } from './pages/home/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SharingComponent } from './components/sharing/sharing.component';
 import { CarouselAboutComponent } from './components/carousel-about/carousel-about.component';
@@ -71,7 +72,8 @@ import { VisionComponent } from './pages/vision/vision.component'
     AboutUsPageComponent,
     BodyAboutComponent,
     HeaderAboutComponent,
-    VisionComponent
+    VisionComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
