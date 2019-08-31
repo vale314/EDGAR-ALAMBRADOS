@@ -11,12 +11,6 @@ app.use(compression())
 
 app.use(express.static((path.join(__dirname,'./dist/EDGAR-ALAMBRADOS'))));
 
-app.use(function(request, response){
-  if(request.protocol === "http"){
-    response.redirect("https://" + request.headers.host + request.url);
-  }
-});
-
 app.get('/video',(req,res)=>{
  const path = './server/video/one.mp4'
 
@@ -34,6 +28,7 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname,'./dist/EDGAR-ALAMBRADOS/index.html'));
 })
 
+/*
 https.createServer({
   key: fs.readFileSync(path.join(__dirname,'./server/ssl/domain-key.pem')),
   ca: fs.readFileSync(path.join(__dirname,'./server/ssl/domain-ca.crt')),
@@ -42,8 +37,9 @@ https.createServer({
 .listen(443, function () {
   console.log('Example app listening on port 3000! Go to https://localhost:3000/')
 })
+*/
 
 http.createServer(app)
-    .listen(process.env.PORT || 80/*8080*/, function () {
+    .listen(process.env.PORT || /*80*/8080, function () {
       console.log('Example app listening on port')
 })
